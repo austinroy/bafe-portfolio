@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { nicole, nairobiSkyline, afya, recording, } from '../assets';
-import HoverVideoPlayer from 'react-hover-video-player';
 import { Carousel } from "@material-tailwind/react";
 
 
