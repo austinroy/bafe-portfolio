@@ -44,6 +44,12 @@
   width: 100-vh;
 }
 
+.hero-header-text {
+  @media (max-width: 768px) {
+    position: relative;
+  }
+}
+
 .nav-links::after {
   content: '';
   display: block;
