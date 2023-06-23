@@ -51,7 +51,7 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 import nicole from './gallery/nicole.png';
-import nairobiSkyline from './gallery/nairobi-skyline.png';
+import nairobiSkyline from './gallery/Nairobi-skyline.png';
 import afya from './gallery/afya.png';
 import recording from './gallery/recording.jpg';
 
