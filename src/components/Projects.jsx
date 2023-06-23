@@ -139,16 +139,20 @@ const Projects = () => {
             <h1 className="font-bold">Found: A short film</h1>
               Found is a self-shot journal of my mental health journey dealing with anxiety and depression after a tragic event and how I learnt how to cope positively and rediscover my love for myself
               <br />
-              <br />
-              <iframe width="1280" height="720" src="https://www.youtube.com/embed/1portt3vmjQ" title="Found" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </motion.p>
+      </div>
+
+      <div className='w-full flex'>
+      <iframe className="project-video"
+       width="100%" height="100%" src="https://www.youtube.com/embed/1portt3vmjQ" title="Found" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
       </div>
       <br />
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
-          className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+          className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] ">
             <h1 className="font-bold">Donate</h1>
             Join my journey to the film festivals! Your support can make it happen. Donate today and be a part of bringing my short film to the big screen.
             Any amount od donations will get you access to my custom LUTS and Node Trees below.
@@ -159,7 +163,7 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
-          className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+          className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] block">
             <h1 className="font-bold">Downloads</h1>
             Get my exclusive node tree for Davinci and Lightroom Luts at the price of your choosing <a href="https://drive.google.com/drive/folders/1SkiL9k0dMwHrHAAC6JLIb4DsBhfYUaVK?usp=sharing" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline" >here </a>
           </motion.p>
