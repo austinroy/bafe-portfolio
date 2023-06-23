@@ -13,7 +13,8 @@ const Hero = () => {
       <header
         class="relative flex items-center justify-center h-screen mb-12 overflow-hidden w-screen">
            <Carousel
-           transition={{ duration: 2 }}
+           autoplay
+           transition={{ duration: 0.5 }}
            >
             {galleryItems.map((item, i) => (
               <img
