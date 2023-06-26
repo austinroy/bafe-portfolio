@@ -124,8 +124,7 @@ const Projects = () => {
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          My focus is seamlessly blending live-action and animation, I push the boundaries of visual storytelling. 
-          With a collaborative spirit and a relentless dedication to growth, I inspire diverse talents and stay at the forefront of emerging trends. 
+          My focus is to seamlessly blend live-action,VFX and animation with a nice touch of Film Emulation. With a collaborative spirit and a relentless dedication to growth, I inspire diverse talents and stay at the forefront of emerging trends. 
         </motion.p>
         <br />
         <br />
