@@ -50,6 +50,12 @@
   }
 }
 
+.projects-section {
+  @media (max-width: 768px) {
+    padding-top: 50px;
+  }
+}
+
 .nav-links::after {
   content: '';
   display: block;
