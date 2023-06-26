@@ -142,7 +142,7 @@ const Projects = () => {
       </div>
 
       <div className='w-full flex'>
-      <iframe className="project-video"
+      <iframe className="project-video pt-10"
        width="100%" height="100%" src="https://www.youtube.com/embed/1portt3vmjQ" title="Found" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
       </div>
@@ -158,7 +158,7 @@ const Projects = () => {
             Any amount of donations will get you access to my custom LUTS and Node Trees below. To donate, send to M-PESA number +254 700810822 or paypal at unchartedcreativeagency@gmail.com
             <br />
             <br />
-            Get my exclusive node tree for Davinci and Lightroom Luts at the price of your choosing <a href="https://drive.google.com/drive/folders/1SkiL9k0dMwHrHAAC6JLIb4DsBhfYUaVK?usp=sharing" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline" >here </a>
+            Get my exclusive node tree for Davinci and Lightroom Luts at the price of your choosing <a href="https://drive.google.com/drive/folders/1SkiL9k0dMwHrHAAC6JLIb4DsBhfYUaVK?usp=sharing" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">here</a>
             <br />
             <br />
             Use code <a href="https://www.dehancer.com/store/video" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">“BAFE”</a>  to get 10% off Dehancer
