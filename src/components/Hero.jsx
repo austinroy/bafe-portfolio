@@ -54,7 +54,7 @@ const Hero = () => {
           <div className='align-center'>
             <h1
               className={`${styles.heroHeadText} text-white font-helvetica font-light uppercase text-center`}>
-              Videographer, Animater & Photographer 
+              Cinematoghrapher, Animater & Photographer 
             </h1>
           </div>
         </div>
