@@ -14,6 +14,7 @@ const Hero = () => {
         class="relative flex items-center justify-center h-screen mb-12 overflow-hidden w-screen">
            <Carousel
            autoplay
+           loop
            transition={{ duration: 0.5 }}
            navigation={({ setActiveIndex, activeIndex, length }) => (
             <div className="absolute bottom-4 left-2/4  flex -translate-x-2/4 gap-2">
