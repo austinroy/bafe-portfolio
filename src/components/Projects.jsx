@@ -152,7 +152,7 @@ const Projects = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] ">
             <h1 className="font-bold">Donate</h1>
-            Join my journey to the film festivals! Your support can make it happen and allow me to keep creating
+            Join my journey to the film festivals! Your support can make it happen and allow me to keep creating.
             <br />
             <br />
             Any amount of donations will get you access to my custom LUTS and Node Trees below. To donate, send to M-PESA number <strong>+254 700810822 </strong>or Paypal at unchartedcreativeagency@gmail.com
@@ -161,7 +161,7 @@ const Projects = () => {
             Get my exclusive node tree for Davinci and Lightroom Luts at the price of your choosing <a href="https://drive.google.com/drive/folders/1SkiL9k0dMwHrHAAC6JLIb4DsBhfYUaVK?usp=sharing" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">here</a>
             <br />
             <br />
-            Use code <a href="https://www.dehancer.com/store/video" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">“BAFE”</a>  to get 10% off Dehancer
+            Use code <a href="https://www.dehancer.com/store/video" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">“BAFE”</a>  to get 10% off Dehancer for more effects and resources to enhance your creative process.
           </motion.p>
       </div>
 
