@@ -126,7 +126,6 @@ const Projects = () => {
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
           My focus is seamlessly blending live-action and animation, I push the boundaries of visual storytelling. 
           With a collaborative spirit and a relentless dedication to growth, I inspire diverse talents and stay at the forefront of emerging trends. 
-          My unique blend of technical expertise and creative finesse promises to leave an indelible mark on the future of cinema.
         </motion.p>
         <br />
         <br />
@@ -154,18 +153,15 @@ const Projects = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] ">
             <h1 className="font-bold">Donate</h1>
-            Join my journey to the film festivals! Your support can make it happen. Donate today and be a part of bringing my short film to the big screen.
-            Any amount od donations will get you access to my custom LUTS and Node Trees below.
-            To donate, send to MPESA number 0700810822 and contact me on the same number to request access.
-          </motion.p>
-      </div>
-
-      <div className="w-full flex">
-        <motion.p
-          variants={fadeIn('', '', 0.1, 1)}
-          className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] block">
-            <h1 className="font-bold">Downloads</h1>
+            Join my journey to the film festivals! Your support can make it happen and allow me to keep creating
+            <br />
+            Any amount of donations will get you access to my custom LUTS and Node Trees below. To donate, send to M-PESA number +254 700810822 or paypal at unchartedcreativeagency@gmail.com
+            <br />
+            <br />
             Get my exclusive node tree for Davinci and Lightroom Luts at the price of your choosing <a href="https://drive.google.com/drive/folders/1SkiL9k0dMwHrHAAC6JLIb4DsBhfYUaVK?usp=sharing" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline" >here </a>
+            <br />
+            <br />
+            Use code <a href="https://www.dehancer.com/store/video" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">“BAFE”</a>  to get 10% off Dehancer
           </motion.p>
       </div>
 
