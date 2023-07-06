@@ -1,12 +1,36 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { nicole, nairobiSkyline, afya, recording, } from '../assets';
+import { nicole, afya, recording, bike,
+  bedroom,
+  safaricom,
+  fam,
+  kitchen,
+  scream,
+  record,
+  fest,
+  bathroom,
+  beach, } from '../assets';
 import { Carousel } from "@material-tailwind/react";
 
 
 
 const Hero = () => {
-  const galleryItems = [ recording, nicole, nairobiSkyline, afya ];
+  const galleryItems = [ 
+    recording, 
+    nicole, 
+    afya,
+    bike,
+    bedroom,
+    safaricom,
+    fam,
+    kitchen,
+    scream,
+    record,
+    fest,
+    bathroom,
+    beach,
+   ];
+   
   return (
     <>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">

@@ -50,10 +50,22 @@ import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
-import nicole from './gallery/nicole.png';
+import nicole from './Carousel/nicole.jpg';
+import afya from './Carousel/afya.png';
+import record from './Carousel/record.jpg';
+import bedroom from './Carousel/bedroom.jpg';
+import bike from './Carousel/bike.png';
+import fam from './Carousel/fam.jpg';
+import kitchen from './Carousel/kitchen.png';
+import safaricom from './Carousel/safaricom.png';
+import scream from './Carousel/scream.png';
+import fest from './Carousel/fest.png';
+import bathroom from './Carousel/bathroom.png';
+import beach from './Carousel/beach.jpg';
+
 import nairobiSkyline from './gallery/Nairobi-skyline.png';
-import afya from './gallery/afya.png';
-import recording from './gallery/recording.jpg';
+import recording from './gallery/recording.jpg'
+import lutpack from './gallery/lutpack1.jpg';
 
 export {
   bwmap,
@@ -102,7 +114,18 @@ export {
   kelhel,
   microverse,
   nicole,
-  nairobiSkyline,
   afya,
+  bike,
+  bedroom,
+  safaricom,
+  fam,
+  kitchen,
+  scream,
+  record,
+  fest,
+  bathroom,
+  beach,
+  nairobiSkyline,
   recording,
+  lutpack,
 };
