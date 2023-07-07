@@ -66,6 +66,7 @@ import beach from './Carousel/beach.jpg';
 import nairobiSkyline from './gallery/Nairobi-skyline.png';
 import recording from './gallery/recording.jpg'
 import lutpack from './gallery/lutpack1.jpg';
+import Dehancer from './gallery/DehancerFilm.png';
 
 export {
   bwmap,
@@ -128,4 +129,5 @@ export {
   nairobiSkyline,
   recording,
   lutpack,
+  Dehancer,
 };

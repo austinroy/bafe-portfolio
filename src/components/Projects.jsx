@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
-import { github, pineapple, pineappleHover } from '../assets';
+import { github, pineapple, pineappleHover, lutpack, Dehancer } from '../assets';
 import { projects } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 
@@ -150,6 +150,25 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
+          className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+            <h1 className="font-bold">Giveaway</h1>
+            <img src={Dehancer} alt="Dehancer" className='object-center' />
+            Use code <a href="https://www.dehancer.com/store/video" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">“BAFE”</a>  to get 10% off Dehancer for more effects and resources to enhance your creative process.
+            <br />
+            <br />
+            To get stand a chance to win a free copy of Dehancer:
+            <br />
+              1. Follow Dehancer.film/Dehancer.mobile and Bafeink on Instagram
+              <br />
+              2. Leave a comment on the Found youtube page
+              <br />
+              I will reach out to the winner on the 14th of July 2023 to hand over their key.
+        </motion.p>
+      </div>
+
+      <div className="w-full flex">
+        <motion.p
+          variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] ">
             <h1 className="font-bold">Donate</h1>
             Join my journey to the film festivals! Your support can make it happen and allow me to keep creating.
@@ -159,10 +178,32 @@ const Projects = () => {
             <br />
             <br />
             Get my exclusive node tree for Davinci and Lightroom Luts at the price of your choosing <a href="https://drive.google.com/drive/folders/1SkiL9k0dMwHrHAAC6JLIb4DsBhfYUaVK?usp=sharing" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">here</a>
+            <a href="https://drive.google.com/drive/folders/1SkiL9k0dMwHrHAAC6JLIb4DsBhfYUaVK?usp=sharing" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline"  className='object-center h-64 w-64 aspect-square round-md shadow-lg border-double'>
+             <img src={lutpack} alt="Luts" className='object-center aspect-square w-1/3 round-md shadow-lg'/> 
+            </a>
             <br />
             <br />
-            Use code <a href="https://www.dehancer.com/store/video" target="_blank" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">“BAFE”</a>  to get 10% off Dehancer for more effects and resources to enhance your creative process.
           </motion.p>
+      </div>
+
+      <div className="w-full flex">
+        <motion.p
+          variants={fadeIn('', '', 0.1, 1)}
+          className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+            <h1 className="font-bold">Hire Studio or Equipment</h1>
+
+            Contact me on <strong>+254 700810822 </strong> to hire my studio or equipment and get started on your creative journey
+        </motion.p>
+      </div>
+
+      <div className="w-full flex">
+        <motion.p
+          variants={fadeIn('', '', 0.1, 1)}
+          className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+            <h1 className="font-bold">Rates</h1>
+
+            Get my rate card <a href="https://drive.google.com/file/d/10ECvbbU8XbuU6YiRGBocNZosi7d10oT7/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">here</a>
+        </motion.p>
       </div>
 
     </div>
